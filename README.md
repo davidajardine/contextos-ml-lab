@@ -1,9 +1,17 @@
 # ContextOS ML Lab — Hyperopt Optimization Script
 
-This repository contains an early experimental script used to optimize trading strategy hyperparameters using `Hyperopt`, `Backtrader`, and PyTorch.
+This repository contains early experimental scripts used to optimize trading strategy hyperparameters using `Hyperopt`, `Backtrader`, and PyTorch.
 
 ## 🧠 Purpose
-This was part of the foundational R&D phase in developing data-driven market behavior models. The script aimed to:
+This was part of the foundational R&D phase in developing data-driven market behavior models. This repo is intended as an experimental playground for iterating on ML ideas before they are integrated into production pipelines.
+
+The primary goal of this repo is to:
+- Test various ML model types against known backtest labels.
+- Evaluate which contextual features hold real predictive power.
+- Track improvements through consistent metrics and visualizations.
+- Lay the groundwork for a fully-automated signature detection classifier.
+
+The scripts aimed to:
 
 - Run backtests using historical price data
 - Evaluate strategies based on Sharpe ratio, drawdown, and net return
@@ -15,6 +23,10 @@ This was part of the foundational R&D phase in developing data-driven market beh
 - `Pandas`, `NumPy`
 - `SQLite` (data storage)
 - Early ML tools: `torch`, `sklearn`
+- `scikit-learn`
+- `matplotlib`
+- `seaborn`
+- `numpy`
 
 ## 🚧 Notes
 - This code predates the modular refactor.
