@@ -33,6 +33,10 @@ The scripts aimed to:
 - Environment variables are hardcoded in this version (do not use in production).
 - Use Python 3.9+.
 
+All experiments use CSV files exported from trading backtests (not included here).
+Each script can be run independently with its own input format.
+Feel free to fork, modify, and use as a base for new classifiers (LSTM, XGBoost, etc.).
+
 ## 🗂️ File List
 - `hyperopt_optim_full.py`: Main experiment script (monolithic form)
 
